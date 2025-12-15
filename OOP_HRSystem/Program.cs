@@ -32,6 +32,7 @@ namespace OOP_HRSystem
 
         static void TestEmployeeTypes()
         {
+            // SOLID: Polymorphism & Liskov Substitution Principle - Different employee types can be used interchangeably
 
             // Salaried Employee Test
             var salariedEmployee = new SalariedEmployee();
@@ -83,8 +84,8 @@ namespace OOP_HRSystem
 
         static void TestRepositoryOperations()
         {
+            // Design Pattern: Repository Pattern - Abstract data access with generic implementation
   
-
             var repository = new Repository<Employee>();
 
             // Add employees
@@ -139,7 +140,8 @@ namespace OOP_HRSystem
 
         static void TestPayslipGeneration()
         {
-         
+            // SOLID: Dependency Inversion Principle - PayslipGenerator depends on INotifier abstraction, not concrete implementation
+
             // Setup notifier
             var notifier = new Notifier(
                 smtpServer: "smtp.company.com",
@@ -192,6 +194,7 @@ namespace OOP_HRSystem
 
         static void TestDismissableEmployees()
         {
+            // SOLID: Open/Closed & Liskov Substitution - CEO protected by inheritance design, dismissable employees follow contract
             Console.WriteLine("\n\n[TEST 4] Employee Dismissal Policy");
             Console.WriteLine("===================================");
 
@@ -230,6 +233,7 @@ namespace OOP_HRSystem
 
         static void TestSalaryCalculators()
         {
+            // Design Pattern: Strategy Pattern - Different salary calculation strategies for different employee types
            
 
             // Test Salaried Employee Calculator
