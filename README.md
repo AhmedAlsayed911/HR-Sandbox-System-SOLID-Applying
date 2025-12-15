@@ -1,5 +1,10 @@
 # HR System - Object-Oriented Programming Project
 
+[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
+[![C#](https://img.shields.io/badge/C%23-12-239120?logo=csharp)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![License](https://img.shields.io/badge/License-Educational-blue.svg)](LICENSE)
+[![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](https://github.com/AhmedAlsayed911/HR-Sandbox-System-SOLID-Applying)
+
 ## 📋 Overview
 A comprehensive Human Resources Management System built with C# and .NET 8.0, demonstrating OOP principles including inheritance, polymorphism, abstraction, and SOLID principles.
 
