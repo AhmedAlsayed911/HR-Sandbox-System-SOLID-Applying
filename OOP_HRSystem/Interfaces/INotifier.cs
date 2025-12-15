@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_HRSystem
+namespace OOP_HRSystem.Interfaces
 {
-    internal interface IUpdatableRepository<T> where T : Entity
+    internal interface INotifier
     {
-        void Update(T entity);
+        void Notify(string email , string subject , string body);
     }
 }
