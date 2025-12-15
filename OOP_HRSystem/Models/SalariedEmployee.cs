@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_HRSystem
+namespace OOP_HRSystem.Models
 {
     internal class SalariedEmployee : DissmisableEmployee
     {
