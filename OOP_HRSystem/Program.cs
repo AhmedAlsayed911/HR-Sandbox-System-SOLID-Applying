@@ -10,9 +10,7 @@ namespace OOP_HRSystem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("========================================");
-            Console.WriteLine("   HR SYSTEM - COMPREHENSIVE TESTS");
-            Console.WriteLine("========================================\n");
+           
 
             // Test 1: Employee Creation and Salary Calculations
             TestEmployeeTypes();
@@ -29,15 +27,11 @@ namespace OOP_HRSystem
             // Test 5: Salary Calculators
             TestSalaryCalculators();
 
-            Console.WriteLine("\n========================================");
-            Console.WriteLine("   ALL TESTS COMPLETED SUCCESSFULLY!");
-            Console.WriteLine("========================================");
+           
         }
 
         static void TestEmployeeTypes()
         {
-            Console.WriteLine("\n[TEST 1] Employee Types and Salary Calculations");
-            Console.WriteLine("================================================");
 
             // Salaried Employee Test
             var salariedEmployee = new SalariedEmployee();
@@ -89,8 +83,7 @@ namespace OOP_HRSystem
 
         static void TestRepositoryOperations()
         {
-            Console.WriteLine("\n\n[TEST 2] Repository Operations (CRUD)");
-            Console.WriteLine("======================================");
+  
 
             var repository = new Repository<Employee>();
 
@@ -146,9 +139,7 @@ namespace OOP_HRSystem
 
         static void TestPayslipGeneration()
         {
-            Console.WriteLine("\n\n[TEST 3] Payslip Generation & Email Notification");
-            Console.WriteLine("=================================================");
-
+         
             // Setup notifier
             var notifier = new Notifier(
                 smtpServer: "smtp.company.com",
@@ -239,8 +230,7 @@ namespace OOP_HRSystem
 
         static void TestSalaryCalculators()
         {
-            Console.WriteLine("\n\n[TEST 5] Salary Calculator Pattern");
-            Console.WriteLine("===================================");
+           
 
             // Test Salaried Employee Calculator
             var salariedEmp = new SalariedEmployee
