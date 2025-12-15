@@ -195,8 +195,6 @@ namespace OOP_HRSystem
         static void TestDismissableEmployees()
         {
             // SOLID: Open/Closed & Liskov Substitution - CEO protected by inheritance design, dismissable employees follow contract
-            Console.WriteLine("\n\n[TEST 4] Employee Dismissal Policy");
-            Console.WriteLine("===================================");
 
             Console.WriteLine("\nDismissing different employee types:\n");
 
