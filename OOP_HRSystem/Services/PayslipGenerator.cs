@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OOP_HRSystem.Models;
+using OOP_HRSystem.Interfaces;
 
-namespace OOP_HRSystem
+namespace OOP_HRSystem.Services
 {
     internal class PayslipGenerator
     {
