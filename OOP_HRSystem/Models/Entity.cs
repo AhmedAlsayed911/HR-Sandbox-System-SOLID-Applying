@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_HRSystem
+namespace OOP_HRSystem.Models
 {
-    internal class Applicant : Person
+    internal abstract class Entity
     {
-                
+        public int Id {  get; set; }
     }
 }
